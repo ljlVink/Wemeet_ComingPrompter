@@ -12,18 +12,16 @@
 ![](https://github.com/ljlVink/Wemeet_ComingPrompter/raw/main/3.png)
 
 
-当有成员进入或退出时，会自动播放一段windows自带的提示音"Windows Notify System Generic"
+当有成员进入或退出时，会自动播放一段windows自带的提示音 ``U盘插入||U盘拔出``
 
 ### 编译
 
 可能需要点魔法
 ```cpp
-g++ .\main.cpp  -lwinmm -o .\main.exe
+g++ .\main.cpp  -lwinmm -static -o .\main.exe
 ```
 
 ### 原理
-
-。。。
 
 检测带"成员"的窗口名称变化
 
